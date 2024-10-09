@@ -34,7 +34,7 @@ public class Fraction {
     }
 
     public String toString() {
-        return numerator + "/" + denominator;
+        return String.format("<sup>%s</sup>/<sub>%s</sub>", numerator, denominator);
     }
 
     // Source: https://stackoverflow.com/a/4009247
@@ -63,11 +63,11 @@ public class Fraction {
         } else if(simplified.numerator > simplified.denominator) {
             int wholeNumber = simplified.numerator / simplified.denominator;
             int remainder = simplified.numerator % simplified.denominator;
-            return wholeNumber + " " + remainder + "/" + simplified.denominator;
+            return wholeNumber + " <sup>" + remainder + "</sup>/<sub>" + simplified.denominator + "</sub>";
         } else if(simplified.numerator < 0 && Math.abs(simplified.numerator) > simplified.denominator) {
             int wholeNumber = simplified.numerator / simplified.denominator;
             int remainder = Math.abs(simplified.numerator) % simplified.denominator;
-            return wholeNumber + " " + remainder + "/" + simplified.denominator;
+            return wholeNumber + " <sup>" + remainder + "</sup>/<sub>" + simplified.denominator + "</sub>";
         }
         return simplified.toString();
     }
@@ -78,7 +78,7 @@ public class Fraction {
         Fraction result = new Fraction();
         result.setNumerator(s1.numerator * s2.denominator + s1.denominator * s2.numerator);
         result.setDenominator(s1.denominator * s2.denominator);
-        return result.mixedNumber();
+        return s1.mixedNumber() + " + " + s2.mixedNumber() + " = " + result.mixedNumber();
     }
 
 

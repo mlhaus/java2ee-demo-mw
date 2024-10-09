@@ -9,15 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Completed MyCalculator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/FractionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fraction.jsp" afterDir="false" />
+    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Starting Fraction Calculator">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/kirkwood/java2eedemo/FractionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/FractionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/FractionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fraction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fraction.jsp" afterDir="false" />
     </list>
     <list id="0c129e6f-9b79-4567-98cd-f3be9e5d6cb7" name="Changes by blake_49vyasj" comment="" />
+    <list id="c7e95fc0-41bc-42ed-868d-22bfe962ec33" name="Changes by elise" comment="" />
+    <list id="55f06c0b-e511-44ce-8604-f8a7a0cbdd4b" name="Changes by emaleth" comment="" />
+    <list id="96060c7e-3c7f-44fa-9038-d0ba85430c1a" name="Changes by evanr" comment="" />
+    <list id="68801a5a-bec8-4967-b1ee-2eb3ab08553d" name="Changes by Josh N" comment="" />
+    <list id="6b41bb22-6299-403c-821e-41c5669203da" name="Changes by k0903252" comment="" />
+    <list id="977fa174-5a65-4a63-825c-06be997bc6a5" name="Changes by New" comment="" />
     <list id="6a3cc77c-b4cc-47b4-ad79-8b585dda1099" name="Changes by skyan" comment="" />
+    <list id="bbb3d0dd-3bdb-401f-a40a-036496fd7d3b" name="Changes by Yahya Halim" comment="" />
+    <list id="ed515825-583d-4bf4-92be-deef6ce766ef" name="Changes by ygopl" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +36,7 @@
       <list>
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -69,23 +78,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.261.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor": "Run",
+    "JUnit.FractionTest,getNumerator and 8 more.executor": "Run",
+    "JUnit.FractionTest.executor": "Run",
+    "JUnit.FractionTest.getDenominator.executor": "Run",
+    "JUnit.FractionTest.getNumerator.executor": "Run",
+    "JUnit.FractionTest.setDenominator.executor": "Run",
+    "JUnit.FractionTest.setNumerator.executor": "Run",
+    "JUnit.FractionTest.testToString.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 10.1.261.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29302326",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.261">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.kirkwood.java2eedemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FractionTest.setDenominator">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -112,6 +141,86 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.getDenominator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java2ee-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kirkwood.java2eedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kirkwood.java2eedemo" />
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.java2eedemo.FractionTest" />
+      <option name="METHOD_NAME" value="getDenominator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.getNumerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java2ee-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kirkwood.java2eedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kirkwood.java2eedemo" />
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.java2eedemo.FractionTest" />
+      <option name="METHOD_NAME" value="getNumerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.setDenominator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java2ee-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kirkwood.java2eedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kirkwood.java2eedemo" />
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.java2eedemo.FractionTest" />
+      <option name="METHOD_NAME" value="setDenominator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.setNumerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java2ee-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kirkwood.java2eedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kirkwood.java2eedemo" />
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.java2eedemo.FractionTest" />
+      <option name="METHOD_NAME" value="setNumerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java2ee-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kirkwood.java2eedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kirkwood.java2eedemo" />
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.java2eedemo.FractionTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,6 +445,15 @@
       <option name="webServerRetentionPeriod" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FractionTest.setDenominator" />
+        <item itemvalue="JUnit.FractionTest.setNumerator" />
+        <item itemvalue="JUnit.FractionTest.testToString" />
+        <item itemvalue="JUnit.FractionTest.getDenominator" />
+        <item itemvalue="JUnit.FractionTest.getNumerator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -359,7 +477,9 @@
       <workItem from="1727895042850" duration="1276000" />
       <workItem from="1728009867198" duration="858000" />
       <workItem from="1728104371033" duration="189000" />
-      <workItem from="1728323281028" duration="5191000" />
+      <workItem from="1728323281028" duration="5446000" />
+      <workItem from="1728428170971" duration="1712000" />
+      <workItem from="1728494485054" duration="5490000" />
     </task>
     <task id="LOCAL-00001" summary="Completed MyCalculator">
       <option name="closed" value="true" />
@@ -369,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727894417294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Starting Fraction Calculator">
+      <option name="closed" value="true" />
+      <created>1728328634408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728328634408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +505,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed MyCalculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed MyCalculator" />
+    <MESSAGE value="Starting Fraction Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting Fraction Calculator" />
   </component>
 </project>
