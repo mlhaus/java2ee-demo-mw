@@ -40,7 +40,7 @@ public class Fraction {
     // Source: https://stackoverflow.com/a/4009247
     // Example of Recursion
     public static int gcd(int a, int b) {
-        if (b==0) return a;
+        if (b==0) return Math.abs(a);
         return gcd(b,a % b);
     }
 
