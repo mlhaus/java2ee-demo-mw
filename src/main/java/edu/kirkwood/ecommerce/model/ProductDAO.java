@@ -15,7 +15,7 @@ public class ProductDAO {
     }
 
     public static List<Product> getProducts() {
-        List<Product> products = new ArrayList<Product>();
+        List<Product> products = new ArrayList<>();
         try(Connection connection = getConnection()) {
             CallableStatement statement = connection.prepareCall("{CALL sp_get_all_products()}");
             ResultSet rs = statement.executeQuery();

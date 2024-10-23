@@ -10,11 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Oct 21 demo">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main-nav.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AllProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fraction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fraction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/my-calculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/my-calculator.jsp" afterDir="false" />
     </list>
     <list id="c699e1bf-0a01-4554-b1f6-63a009548f67" name="Changes by alsha" comment="" />
     <list id="0203c12d-c7c1-40a7-9fc4-50db8eb667e5" name="Changes by blake_49vyasj" comment="" />
+    <list id="aaf8c33c-18ef-420e-a740-a39c2b2cf207" name="Changes by brodi" comment="" />
+    <list id="f0774c80-8549-472e-b1da-4da5f915c018" name="Changes by csb" comment="" />
     <list id="c7e95fc0-41bc-42ed-868d-22bfe962ec33" name="Changes by elise" comment="" />
     <list id="3aa77134-e6be-49aa-a6a6-be2c4f5e1d9c" name="Changes by Ellie" comment="" />
     <list id="55f06c0b-e511-44ce-8604-f8a7a0cbdd4b" name="Changes by emaleth" comment="" />
@@ -22,10 +30,11 @@
     <list id="96060c7e-3c7f-44fa-9038-d0ba85430c1a" name="Changes by evanr" comment="" />
     <list id="4547db9e-73fd-4497-92d0-b597f660a750" name="Changes by jacob" comment="" />
     <list id="a7d46622-267f-4def-bf93-1e61038e6bb8" name="Changes by Josh N" comment="" />
+    <list id="e18f6006-6334-4e74-afc0-087bbac3c497" name="Changes by k0903252" comment="" />
     <list id="7d4cc07e-46d6-43ce-9ac8-4cb3f76ba0e3" name="Changes by maghi" comment="" />
     <list id="f5d4e4eb-2f48-4751-90e4-6fa4740aaad7" name="Changes by moham" comment="" />
-    <list id="95d999a5-7573-4910-bc52-10a13a0d81f9" name="Changes by New" comment="" />
     <list id="6a3cc77c-b4cc-47b4-ad79-8b585dda1099" name="Changes by skyan" comment="" />
+    <list id="58504656-803b-4fea-a2a4-675a623002e4" name="Changes by stand" comment="" />
     <list id="bbb3d0dd-3bdb-401f-a40a-036496fd7d3b" name="Changes by Yahya Halim" comment="" />
     <list id="43b4dedf-7c9b-4682-9f8e-d10134a20fd5" name="Changes by ygopl" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -484,7 +493,7 @@
       <workItem from="1729531196812" duration="7564000" />
       <workItem from="1729538781920" duration="30000" />
       <workItem from="1729627139792" duration="6681000" />
-      <workItem from="1729704588280" duration="1114000" />
+      <workItem from="1729704588280" duration="4867000" />
     </task>
     <task id="LOCAL-00001" summary="Completed MyCalculator">
       <option name="closed" value="true" />
@@ -526,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729538803555</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Oct 21 demo">
+      <option name="closed" value="true" />
+      <created>1729705726564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729705726564</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -11,12 +11,12 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(value="/products")
-public class AllProducts extends HttpServlet {
+@WebServlet(value="/shop")
+public class Shop extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Product> products = ProductDAO.getProducts();
         req.setAttribute("products", products);
-        req.getRequestDispatcher("WEB-INF/ecommerce/products.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/ecommerce/shop.jsp").forward(req, resp);
     }
 }
