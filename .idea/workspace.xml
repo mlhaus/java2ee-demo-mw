@@ -9,17 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Completed FractionTest unit tests">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AllProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/MySQL_Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Oct 21 demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/products.jsp" afterDir="false" />
     </list>
     <list id="c699e1bf-0a01-4554-b1f6-63a009548f67" name="Changes by alsha" comment="" />
     <list id="0203c12d-c7c1-40a7-9fc4-50db8eb667e5" name="Changes by blake_49vyasj" comment="" />
@@ -88,47 +80,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MySQL_Connect.executor": "Run",
-    "Application.ProductDAO.executor": "Run",
-    "Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor": "Run",
-    "JUnit.All in java2ee-demo.executor": "Run",
-    "JUnit.FractionTest,getNumerator and 8 more.executor": "Run",
-    "JUnit.FractionTest.add.executor": "Run",
-    "JUnit.FractionTest.executor": "Run",
-    "JUnit.FractionTest.gcd.executor": "Run",
-    "JUnit.FractionTest.getDenominator.executor": "Run",
-    "JUnit.FractionTest.getNumerator.executor": "Run",
-    "JUnit.FractionTest.mixedNumber.executor": "Run",
-    "JUnit.FractionTest.setDenominator.executor": "Run",
-    "JUnit.FractionTest.setNumerator.executor": "Run",
-    "JUnit.FractionTest.simplify.executor": "Run",
-    "JUnit.FractionTest.testToString.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.261.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29302326",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MySQL_Connect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in java2ee-demo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest,getNumerator and 8 more.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.add.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.gcd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.getDenominator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.getNumerator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.mixedNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.setDenominator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.setNumerator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.simplify.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.testToString.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.261.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29302326&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -490,6 +482,9 @@
       <workItem from="1728494485054" duration="6309000" />
       <workItem from="1728927211587" duration="3417000" />
       <workItem from="1729531196812" duration="7564000" />
+      <workItem from="1729538781920" duration="30000" />
+      <workItem from="1729627139792" duration="6681000" />
+      <workItem from="1729704588280" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="Completed MyCalculator">
       <option name="closed" value="true" />
@@ -523,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728930596941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Oct 21 demo">
+      <option name="closed" value="true" />
+      <created>1729538803555</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729538803555</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,6 +537,7 @@
     <MESSAGE value="Starting Fraction Calculator" />
     <MESSAGE value="Completed Fraction Calculator" />
     <MESSAGE value="Completed FractionTest unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed FractionTest unit tests" />
+    <MESSAGE value="Oct 21 demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct 21 demo" />
   </component>
 </project>
