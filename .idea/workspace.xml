@@ -9,34 +9,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Oct 21 demo">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/main-nav.jsp" afterDir="false" />
+    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Oct 23 demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AdminOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AdminProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/admin-orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/admin-products.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AllProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/shop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fraction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fraction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/my-calculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/my-calculator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/shop.jsp" afterDir="false" />
     </list>
-    <list id="c699e1bf-0a01-4554-b1f6-63a009548f67" name="Changes by alsha" comment="" />
-    <list id="0203c12d-c7c1-40a7-9fc4-50db8eb667e5" name="Changes by blake_49vyasj" comment="" />
+    <list id="ae05a1f7-5296-458e-9fe4-85e8e4fb9125" name="Changes by blake_49vyasj" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/kirkwood/shared/HelpersTest.java" afterDir="false" />
+    </list>
     <list id="aaf8c33c-18ef-420e-a740-a39c2b2cf207" name="Changes by brodi" comment="" />
-    <list id="f0774c80-8549-472e-b1da-4da5f915c018" name="Changes by csb" comment="" />
+    <list id="888a5f95-4c25-45a7-89da-864fdf3ae0f3" name="Changes by csb" comment="" />
     <list id="c7e95fc0-41bc-42ed-868d-22bfe962ec33" name="Changes by elise" comment="" />
     <list id="3aa77134-e6be-49aa-a6a6-be2c4f5e1d9c" name="Changes by Ellie" comment="" />
-    <list id="55f06c0b-e511-44ce-8604-f8a7a0cbdd4b" name="Changes by emaleth" comment="" />
     <list id="b5d94645-9791-4f35-b236-9eaa5ade5cb0" name="Changes by ericm" comment="" />
-    <list id="96060c7e-3c7f-44fa-9038-d0ba85430c1a" name="Changes by evanr" comment="" />
     <list id="4547db9e-73fd-4497-92d0-b597f660a750" name="Changes by jacob" comment="" />
-    <list id="a7d46622-267f-4def-bf93-1e61038e6bb8" name="Changes by Josh N" comment="" />
+    <list id="9bfca9f9-0dff-42a9-8fa0-c6c5cc645d92" name="Changes by Josh N" comment="" />
     <list id="e18f6006-6334-4e74-afc0-087bbac3c497" name="Changes by k0903252" comment="" />
-    <list id="7d4cc07e-46d6-43ce-9ac8-4cb3f76ba0e3" name="Changes by maghi" comment="" />
-    <list id="f5d4e4eb-2f48-4751-90e4-6fa4740aaad7" name="Changes by moham" comment="" />
-    <list id="6a3cc77c-b4cc-47b4-ad79-8b585dda1099" name="Changes by skyan" comment="" />
-    <list id="58504656-803b-4fea-a2a4-675a623002e4" name="Changes by stand" comment="" />
+    <list id="37a3e75f-cfb5-4b48-950c-161aa5ffa1d6" name="Changes by skyan" comment="" />
     <list id="bbb3d0dd-3bdb-401f-a40a-036496fd7d3b" name="Changes by Yahya Halim" comment="" />
-    <list id="43b4dedf-7c9b-4682-9f8e-d10134a20fd5" name="Changes by ygopl" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,52 +87,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MySQL_Connect.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductDAO.executor&quot;: &quot;Run&quot;,
-    &quot;Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in java2ee-demo.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest,getNumerator and 8 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.add.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.gcd.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.getDenominator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.getNumerator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.mixedNumber.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.setDenominator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.setNumerator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.simplify.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FractionTest.testToString.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.261.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.29302326&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MySQL_Connect.executor": "Run",
+    "Application.OrderDAO.executor": "Run",
+    "Application.ProductDAO.executor": "Run",
+    "Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor": "Run",
+    "JUnit.All in java2ee-demo.executor": "Run",
+    "JUnit.FractionTest,getNumerator and 8 more.executor": "Run",
+    "JUnit.FractionTest.add.executor": "Run",
+    "JUnit.FractionTest.executor": "Run",
+    "JUnit.FractionTest.gcd.executor": "Run",
+    "JUnit.FractionTest.getDenominator.executor": "Run",
+    "JUnit.FractionTest.getNumerator.executor": "Run",
+    "JUnit.FractionTest.mixedNumber.executor": "Run",
+    "JUnit.FractionTest.setDenominator.executor": "Run",
+    "JUnit.FractionTest.setNumerator.executor": "Run",
+    "JUnit.FractionTest.simplify.executor": "Run",
+    "JUnit.FractionTest.testToString.executor": "Run",
+    "JUnit.HelpersTest.executor": "Run",
+    "JUnit.HelpersTest.round.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.1.261.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29302326",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.kirkwood.shared" />
       <recent name="edu.kirkwood.java2eedemo" />
     </key>
   </component>
@@ -169,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQL_Connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.shared.MySQL_Connect" />
+    <configuration name="OrderDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.ecommerce.model.OrderDAO" />
       <module name="java2ee-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.kirkwood.shared.*" />
+          <option name="PATTERN" value="edu.kirkwood.ecommerce.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,14 +197,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in java2ee-demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java2ee-demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java2ee-demo" />
       <extension name="coverage">
@@ -218,17 +212,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractionTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HelpersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java2ee-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.kirkwood.java2eedemo.*" />
+          <option name="PATTERN" value="edu.kirkwood.shared.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.kirkwood.java2eedemo" />
-      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.java2eedemo.FractionTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="PACKAGE_NAME" value="edu.kirkwood.shared" />
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.shared.HelpersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelpersTest.round" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java2ee-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kirkwood.shared.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kirkwood.shared" />
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.shared.HelpersTest" />
+      <option name="METHOD_NAME" value="round" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -456,11 +465,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderDAO" />
         <item itemvalue="Application.ProductDAO" />
-        <item itemvalue="Application.MySQL_Connect" />
-        <item itemvalue="JUnit.All in java2ee-demo" />
+        <item itemvalue="JUnit.HelpersTest.round" />
+        <item itemvalue="JUnit.HelpersTest" />
         <item itemvalue="JUnit.FractionTest" />
-        <item itemvalue="JUnit.FractionTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +502,10 @@
       <workItem from="1729531196812" duration="7564000" />
       <workItem from="1729538781920" duration="30000" />
       <workItem from="1729627139792" duration="6681000" />
-      <workItem from="1729704588280" duration="4867000" />
+      <workItem from="1729704588280" duration="5652000" />
+      <workItem from="1730075235222" duration="12000" />
+      <workItem from="1730135795215" duration="3223000" />
+      <workItem from="1730139663583" duration="3269000" />
     </task>
     <task id="LOCAL-00001" summary="Completed MyCalculator">
       <option name="closed" value="true" />
@@ -543,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729705726564</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Oct 23 demo">
+      <option name="closed" value="true" />
+      <created>1729711118133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729711118133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,6 +575,18 @@
     <MESSAGE value="Completed Fraction Calculator" />
     <MESSAGE value="Completed FractionTest unit tests" />
     <MESSAGE value="Oct 21 demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct 21 demo" />
+    <MESSAGE value="Oct 23 demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct 23 demo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AdminProducts.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
