@@ -9,22 +9,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Oct 28 demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/GroupChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/AzureEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/EmailThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/group-chat.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/group-chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/group-chat.css" afterDir="false" />
+    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Nov 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/GroupChatEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/sockets/MyDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/sockets/MyEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/sockets/MyJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Validators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Validators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main-nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main-nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/group-chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/group-chat.js" afterDir="false" />
     </list>
     <list id="ae05a1f7-5296-458e-9fe4-85e8e4fb9125" name="Changes by blake_49vyasj" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/edu/kirkwood/shared/HelpersTest.java" afterDir="false" />
     </list>
+    <list id="35f97f63-c7cd-4960-bac8-4ad8214ac1ee" name="Changes by brodi" comment="" />
+    <list id="f549f8eb-8da2-4190-81b9-97cb5562a870" name="Changes by csb" comment="" />
+    <list id="b097f428-6692-4450-92d0-95ce0ffd5b53" name="Changes by Ellie" comment="" />
+    <list id="e538a0ec-1ac7-41f6-aec4-295aad3153c3" name="Changes by emaleth" comment="" />
+    <list id="7f542087-25c2-4602-a634-9fa25e6d9b4a" name="Changes by evanr" comment="" />
+    <list id="1b8f3ac6-de17-4fe0-a2ff-f58d63dbf5cb" name="Changes by jacob" comment="" />
+    <list id="a43d5b75-2d65-4b02-a66b-09d50d63a210" name="Changes by Josh N" comment="" />
+    <list id="374df9f1-fac8-4d58-9d34-7f0221ba7e3a" name="Changes by k0903252" comment="" />
+    <list id="178e7a12-b806-428f-b48c-be26ede71478" name="Changes by maghi" comment="" />
+    <list id="6e7de44b-4cc6-404b-a4f6-ed0831d6d27f" name="Changes by moham" comment="" />
+    <list id="b7e25367-1fba-429d-9744-ef9aaf3eae1e" name="Changes by skyan" comment="" />
+    <list id="2d45e955-63eb-4406-801f-d02470c483a3" name="Changes by stand" comment="" />
+    <list id="97ab65e7-82f1-4063-8e5c-7575f74fc6f5" name="Changes by Yahya Halim" comment="" />
+    <list id="d77e376a-b691-41f6-bfd2-37cc471594ad" name="Changes by ygopl" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +44,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Jsp File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -510,6 +520,7 @@
       <workItem from="1731280224721" duration="325000" />
       <workItem from="1731282614536" duration="74000" />
       <workItem from="1731341994815" duration="2000" />
+      <workItem from="1731349780785" duration="6026000" />
     </task>
     <task id="LOCAL-00001" summary="Completed MyCalculator">
       <option name="closed" value="true" />
@@ -575,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730142981473</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Nov 5">
+      <option name="closed" value="true" />
+      <created>1731349810762</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731349810762</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +608,8 @@
     <MESSAGE value="Oct 21 demo" />
     <MESSAGE value="Oct 23 demo" />
     <MESSAGE value="Oct 28 demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct 28 demo" />
+    <MESSAGE value="Nov 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nov 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
