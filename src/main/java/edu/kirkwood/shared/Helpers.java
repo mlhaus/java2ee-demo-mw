@@ -1,5 +1,7 @@
 package edu.kirkwood.shared;
 
+import org.jsoup.Jsoup;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
@@ -13,8 +15,13 @@ public class Helpers {
 //        return decimalFormat.format(number); // Step 4: Format the decimal number as a string and return it.
         // Source: ChatGPT https://chatgpt.com/share/671fcc74-41d4-8007-9179-f0f8586b5908
         BigDecimal bigDecimal = new BigDecimal(Double.toString(number));
-        bigDecimal = bigDecimal.setScale(numDecPlaces, RoundingMode.HALF_UP);
+        bigDecimal = bigDecimal.setScale(numDecPlaces, RoundingMode.HALF_UP).stripTrailingZeros();
         return bigDecimal.toString();
+    }
+
+    // https://stackoverflow.com/a/3149645/6629315
+    public static String html2text(String html) {
+        return Jsoup.parse(html).text();
     }
 }
 

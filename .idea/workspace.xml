@@ -9,32 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Oct 23 demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AdminOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/controller/AdminProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/admin-orders.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/admin-products.jsp" afterDir="false" />
+    <list default="true" id="267f1b14-138b-44b7-aa71-5fe3a886a29f" name="Changes" comment="Oct 28 demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/java2eedemo/GroupChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/AzureEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/EmailThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/group-chat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/group-chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/group-chat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/ecommerce/model/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ecommerce/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Validators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kirkwood/shared/Validators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main-nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main-nav.jsp" afterDir="false" />
     </list>
     <list id="ae05a1f7-5296-458e-9fe4-85e8e4fb9125" name="Changes by blake_49vyasj" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/edu/kirkwood/shared/HelpersTest.java" afterDir="false" />
     </list>
-    <list id="aaf8c33c-18ef-420e-a740-a39c2b2cf207" name="Changes by brodi" comment="" />
-    <list id="888a5f95-4c25-45a7-89da-864fdf3ae0f3" name="Changes by csb" comment="" />
-    <list id="c7e95fc0-41bc-42ed-868d-22bfe962ec33" name="Changes by elise" comment="" />
-    <list id="3aa77134-e6be-49aa-a6a6-be2c4f5e1d9c" name="Changes by Ellie" comment="" />
-    <list id="b5d94645-9791-4f35-b236-9eaa5ade5cb0" name="Changes by ericm" comment="" />
-    <list id="4547db9e-73fd-4497-92d0-b597f660a750" name="Changes by jacob" comment="" />
-    <list id="9bfca9f9-0dff-42a9-8fa0-c6c5cc645d92" name="Changes by Josh N" comment="" />
-    <list id="e18f6006-6334-4e74-afc0-087bbac3c497" name="Changes by k0903252" comment="" />
-    <list id="37a3e75f-cfb5-4b48-950c-161aa5ffa1d6" name="Changes by skyan" comment="" />
-    <list id="bbb3d0dd-3bdb-401f-a40a-036496fd7d3b" name="Changes by Yahya Halim" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +36,8 @@
         <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -87,50 +79,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MySQL_Connect.executor": "Run",
-    "Application.OrderDAO.executor": "Run",
-    "Application.ProductDAO.executor": "Run",
-    "Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor": "Run",
-    "JUnit.All in java2ee-demo.executor": "Run",
-    "JUnit.FractionTest,getNumerator and 8 more.executor": "Run",
-    "JUnit.FractionTest.add.executor": "Run",
-    "JUnit.FractionTest.executor": "Run",
-    "JUnit.FractionTest.gcd.executor": "Run",
-    "JUnit.FractionTest.getDenominator.executor": "Run",
-    "JUnit.FractionTest.getNumerator.executor": "Run",
-    "JUnit.FractionTest.mixedNumber.executor": "Run",
-    "JUnit.FractionTest.setDenominator.executor": "Run",
-    "JUnit.FractionTest.setNumerator.executor": "Run",
-    "JUnit.FractionTest.simplify.executor": "Run",
-    "JUnit.FractionTest.testToString.executor": "Run",
-    "JUnit.HelpersTest.executor": "Run",
-    "JUnit.HelpersTest.round.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.261.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29302326",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AzureEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MySQL_Connect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Azure Web App.Azure Web App: java2ee-demo:mlhaus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in java2ee-demo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest,getNumerator and 8 more.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.add.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.gcd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.getDenominator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.getNumerator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.mixedNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.setDenominator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.setNumerator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.simplify.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FractionTest.testToString.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelpersTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelpersTest.round.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.261.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;java2ee-demo.wasFacetEverAdded&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29302326&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -171,6 +166,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AzureEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.shared.AzureEmail" />
+      <module name="java2ee-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kirkwood.shared.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.kirkwood.ecommerce.model.OrderDAO" />
       <module name="java2ee-demo" />
@@ -193,21 +201,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java2ee-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.kirkwood.java2eedemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.kirkwood.java2eedemo" />
-      <option name="MAIN_CLASS_NAME" value="edu.kirkwood.java2eedemo.FractionTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -465,19 +458,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AzureEmail" />
         <item itemvalue="Application.OrderDAO" />
         <item itemvalue="Application.ProductDAO" />
         <item itemvalue="JUnit.HelpersTest.round" />
         <item itemvalue="JUnit.HelpersTest" />
-        <item itemvalue="JUnit.FractionTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -505,7 +498,18 @@
       <workItem from="1729704588280" duration="5652000" />
       <workItem from="1730075235222" duration="12000" />
       <workItem from="1730135795215" duration="3223000" />
-      <workItem from="1730139663583" duration="3269000" />
+      <workItem from="1730139663583" duration="3338000" />
+      <workItem from="1730153056117" duration="340000" />
+      <workItem from="1730746561066" duration="4534000" />
+      <workItem from="1730751831695" duration="500000" />
+      <workItem from="1730768819106" duration="551000" />
+      <workItem from="1730840848049" duration="4918000" />
+      <workItem from="1730917545430" duration="7096000" />
+      <workItem from="1731044522409" duration="13000" />
+      <workItem from="1731045944921" duration="9000" />
+      <workItem from="1731280224721" duration="325000" />
+      <workItem from="1731282614536" duration="74000" />
+      <workItem from="1731341994815" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Completed MyCalculator">
       <option name="closed" value="true" />
@@ -563,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729711118133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Oct 28 demo">
+      <option name="closed" value="true" />
+      <created>1730142981473</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730142981473</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +588,8 @@
     <MESSAGE value="Completed FractionTest unit tests" />
     <MESSAGE value="Oct 21 demo" />
     <MESSAGE value="Oct 23 demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct 23 demo" />
+    <MESSAGE value="Oct 28 demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct 28 demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
