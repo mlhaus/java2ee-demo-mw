@@ -21,15 +21,15 @@
                     <input type="text" class="form-control" id="userName">
                 </div>
                 <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                    <label for="messageInput">Message</label>
+                    <textarea class="form-control" id="messageInput" rows="5"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Send</button>
             </form>
             <!-- Error Notification Placeholder -->
             <div id="errorText" class="alert alert-danger d-none" role="alert"></div>
             <!-- Message Placeholder -->
-            <div id="messages"></div>
+            <div id="messageOutput"></div>
         </div>
     </div>
 </div>

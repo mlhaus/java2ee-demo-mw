@@ -30,6 +30,7 @@ public class GroupChatEndpoint {
     @OnMessage
     public void onMessage(MyJson myJson, Session session) throws EncodeException, IOException {
         // session refers to the user who is sending the message
+//        System.out.println(myJson);
         for(Session s : subscribers) {
             if(!s.equals(session)) {
                 // deliver the message to all other subscribers

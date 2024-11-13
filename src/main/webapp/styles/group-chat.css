@@ -1,32 +1,32 @@
-#messages {
+#messageOutput {
     border: 1px solid black;
     height: 300px;
     padding: 10px;
     overflow-y: auto;
 }
-#messages div {
+#messageOutput div {
     margin-bottom: 10px;
 }
-#messages p {
+#messageOutput p {
     padding: 5px 10px;
     margin: 0;
     border-radius: 10px;
 }
-#messages span {
+#messageOutput span {
     padding: 5px;
     font-size: 12px;
     font-style: italic;
 }
-#messages .in {
+#messageOutput .in {
     margin-right: 100px;
 }
-#messages .in p {
+#messageOutput .in p {
     background-color: hsl(210, 0%, 70%);
 }
-#messages .out {
+#messageOutput .out {
     margin-left: 100px;
 }
-#messages .out p {
+#messageOutput .out p {
     background-color: hsl(210, 100%, 50%);
     color: white;
 }
