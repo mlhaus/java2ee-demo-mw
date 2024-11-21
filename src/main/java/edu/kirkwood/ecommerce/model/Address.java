@@ -1,5 +1,7 @@
 package edu.kirkwood.ecommerce.model;
 
+import edu.kirkwood.shared.Validators;
+
 public class Address {
     private String address;
     private String city;
@@ -11,11 +13,11 @@ public class Address {
     }
 
     public Address(String address, String city, String state, String zip, String country) {
-        this.address = address;
-        this.city = city;
-        this.state = state;
-        this.zip = zip;
-        this.country = country;
+        setAddress(address);
+        setCity(city);
+        setState(state);
+        setZip(zip);
+        setCountry(country);
     }
 
     public String getAddress() {
@@ -23,6 +25,9 @@ public class Address {
     }
 
     public void setAddress(String address) {
+        if(address == null || address.strip().length() == 0) {
+            throw new IllegalArgumentException("Street address is required");
+        }
         this.address = address;
     }
 
@@ -31,6 +36,9 @@ public class Address {
     }
 
     public void setCity(String city) {
+        if(city == null || city.strip().length() == 0) {
+            throw new IllegalArgumentException("City is required");
+        }
         this.city = city;
     }
 
@@ -39,6 +47,10 @@ public class Address {
     }
 
     public void setState(String state) {
+        // TODO: Require the state if the country is US or USA or not specified
+        if(state != null && state.strip().length() > 0 && Validators.isValidState(state)) {
+            throw new IllegalArgumentException("Invalid state");
+        }
         this.state = state;
     }
 
@@ -47,6 +59,9 @@ public class Address {
     }
 
     public void setZip(String zip) {
+        if(zip == null || Validators.isValidZip(zip)) {
+            throw new IllegalArgumentException("Invalid zip");
+        }
         this.zip = zip;
     }
 
@@ -55,6 +70,9 @@ public class Address {
     }
 
     public void setCountry(String country) {
+        if(country == null || Validators.isValidCountry(country)) {
+            throw new IllegalArgumentException("Invalid country");
+        }
         this.country = country;
     }
 

@@ -9,9 +9,9 @@ public class Vendor {
     }
 
     public Vendor(String vend_id, String vend_name, Address address) {
-        this.vend_id = vend_id;
-        this.vend_name = vend_name;
-        this.address = address;
+        setVend_id(vend_id);
+        setVend_name(vend_name);
+        setAddress(address);
     }
 
     public String getVend_id() {
@@ -19,6 +19,9 @@ public class Vendor {
     }
 
     public void setVend_id(String vend_id) {
+        if(vend_id == null || vend_id.strip().length() == 0) {
+            throw new IllegalArgumentException("Vendor ID is required");
+        }
         this.vend_id = vend_id;
     }
 
@@ -27,6 +30,9 @@ public class Vendor {
     }
 
     public void setVend_name(String vend_name) {
+        if(vend_name == null || vend_name.strip().length() == 0) {
+            throw new IllegalArgumentException("Vendor Name is required");
+        }
         this.vend_name = vend_name;
     }
 
@@ -35,6 +41,9 @@ public class Vendor {
     }
 
     public void setAddress(Address address) {
+        if(address == null) {
+            throw new IllegalArgumentException("Address is required");
+        }
         this.address = address;
     }
 
