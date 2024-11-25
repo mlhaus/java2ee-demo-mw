@@ -9,9 +9,11 @@ public class Address {
     private String zip;
     private String country;
 
+    // Use default constructors and setter methods in servlets to validate user input.
     public Address() {
     }
 
+    // Use parameterized constructors in the DAO classes.
     public Address(String address, String city, String state, String zip, String country) {
         this.address = address;
         this.city = city;
@@ -37,7 +39,7 @@ public class Address {
 
     public void setCity(String city) {
         // Require the city only if the country is set
-        if(country != null ) {
+        if(country != null) {
             if (city == null || city.strip().length() == 0) {
                 throw new IllegalArgumentException("City is required");
             }
@@ -54,7 +56,9 @@ public class Address {
     }
 
     public void setState(String state) {
-        state = state.toUpperCase();
+        if(state != null) {
+            state = state.toUpperCase();
+        }
         // Require the state only if the country is US or USA
         if(isUnitedStates()) {
             if (state != null && !Validators.isValidState(state)) {
@@ -83,7 +87,9 @@ public class Address {
     }
 
     public void setCountry(String country) {
-        country = country.toUpperCase();
+        if(country != null) {
+            country = country.toUpperCase();
+        }
         if(country == null || !Validators.isValidCountry(country)) {
             throw new IllegalArgumentException("Invalid country");
         }

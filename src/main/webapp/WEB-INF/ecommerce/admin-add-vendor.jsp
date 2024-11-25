@@ -34,20 +34,22 @@
                 ${vendorNameMessage}
             </div>
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-4">
+            <label for="country" class="form-label">Country Abbreviation</label>
+            <input type="text" class="form-control <c:choose><c:when test="${countryError == true}">is-invalid</c:when><c:when test="${countryError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="country" name="country" value="${country}" maxlength="3">
+            <div class="<c:choose><c:when test="${countryError == true}">invalid-feedback</c:when><c:when test="${countryError == false}">valid-feedback</c:when><c:otherwise></c:otherwise></c:choose>">
+                ${countryMessage}
+            </div>
+        </div>
+        <div class="col-md-8">
             <label for="streetAddress" class="form-label">Street Address</label>
             <input type="text" class="form-control <c:choose><c:when test="${streetAddressError == true}">is-invalid</c:when><c:when test="${streetAddressError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="streetAddress" name="streetAddress" value="${streetAddress}">
             <div class="<c:choose><c:when test="${streetAddressError == true}">invalid-feedback</c:when><c:when test="${streetAddressError == false}">valid-feedback</c:when><c:otherwise></c:otherwise></c:choose>">
                 ${streetAddressMessage}
             </div>
         </div>
-        <div class="col-md-6">
-            <label for="zip" class="form-label">Zip</label>
-            <input type="text" class="form-control <c:choose><c:when test="${zipError == true}">is-invalid</c:when><c:when test="${zipError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="zip" name="zip" value="${zip}">
-            <div class="<c:choose><c:when test="${zipError == true}">invalid-feedback</c:when><c:when test="${zipError == false}">valid-feedback</c:when><c:otherwise></c:otherwise></c:choose>">
-                ${zipMessage}
-            </div>
-        </div>
+        
         <div class="col-md-4">
             <label for="city" class="form-label">City</label>
             <input type="text" class="form-control <c:choose><c:when test="${cityError == true}">is-invalid</c:when><c:when test="${cityError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="city" name="city" value="${city}">
@@ -63,12 +65,13 @@
             </div>
         </div>
         <div class="col-md-4">
-            <label for="country" class="form-label">Country Abbreviation</label>
-            <input type="text" class="form-control <c:choose><c:when test="${countryError == true}">is-invalid</c:when><c:when test="${countryError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="country" name="country" value="${country}" maxlength="3">
-            <div class="<c:choose><c:when test="${countryError == true}">invalid-feedback</c:when><c:when test="${countryError == false}">valid-feedback</c:when><c:otherwise></c:otherwise></c:choose>">
-                ${countryMessage}
+            <label for="zip" class="form-label">Zip</label>
+            <input type="text" class="form-control <c:choose><c:when test="${zipError == true}">is-invalid</c:when><c:when test="${zipError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="zip" name="zip" value="${zip}">
+            <div class="<c:choose><c:when test="${zipError == true}">invalid-feedback</c:when><c:when test="${zipError == false}">valid-feedback</c:when><c:otherwise></c:otherwise></c:choose>">
+                ${zipMessage}
             </div>
         </div>
+        
         <div class="col-12">
             <button class="btn btn-dark" type="submit">Submit form</button>
         </div>
