@@ -61,6 +61,16 @@ public class AdminAddVendor extends HttpServlet {
         Address address = new Address();
 
         try {
+            address.setCountry(country);
+            req.setAttribute("countryError", false);
+            req.setAttribute("countryMessage", "Looks good!");
+        } catch (IllegalArgumentException e) {
+            validationError = true;
+            req.setAttribute("countryError", true);
+            req.setAttribute("countryMessage", e.getMessage());
+        }
+
+        try {
             address.setAddress(streetAddress);
             req.setAttribute("streetAddressError", false);
             req.setAttribute("streetAddressMessage", "Looks good!");
@@ -72,8 +82,10 @@ public class AdminAddVendor extends HttpServlet {
 
         try {
             address.setZip(zip);
-            req.setAttribute("zipError", false);
-            req.setAttribute("zipMessage", "Looks good!");
+            if(address.getCountry() != null) {
+                req.setAttribute("zipError", false);
+                req.setAttribute("zipMessage", "Looks good!");
+            }
         } catch (IllegalArgumentException e) {
             validationError = true;
             req.setAttribute("zipError", true);
@@ -82,8 +94,10 @@ public class AdminAddVendor extends HttpServlet {
 
         try {
             address.setCity(city);
-            req.setAttribute("cityError", false);
-            req.setAttribute("cityMessage", "Looks good!");
+            if(address.getCountry() != null) {
+                req.setAttribute("cityError", false);
+                req.setAttribute("cityMessage", "Looks good!");
+            }
         } catch (IllegalArgumentException e) {
             validationError = true;
             req.setAttribute("cityError", true);
@@ -91,19 +105,11 @@ public class AdminAddVendor extends HttpServlet {
         }
 
         try {
-            address.setCountry(country);
-            req.setAttribute("countryError", false);
-            req.setAttribute("countryMessage", "Looks good!");
-        } catch (IllegalArgumentException e) {
-            validationError = true;
-            req.setAttribute("countryError", true);
-            req.setAttribute("countryMessage", e.getMessage());
-        }
-
-        try {
             address.setState(state);
-            req.setAttribute("stateError", false);
-            req.setAttribute("stateMessage", "Looks good!");
+            if(address.isUnitedStates()) {
+                req.setAttribute("stateError", false);
+                req.setAttribute("stateMessage", "Looks good!");
+            }
         } catch (IllegalArgumentException e) {
             validationError = true;
             req.setAttribute("stateError", true);

@@ -9,9 +9,9 @@ public class Vendor {
     }
 
     public Vendor(String vend_id, String vend_name, Address address) {
-        setVend_id(vend_id);
-        setVend_name(vend_name);
-        setAddress(address);
+        this.vend_id = vend_id;
+        this.vend_name = vend_name;
+        this.address = address;
     }
 
     public String getVend_id() {
