@@ -19,6 +19,9 @@ public class Vendor {
     }
 
     public void setVend_id(String vend_id) {
+        if(vend_id != null) {
+            vend_id = vend_id.trim().toUpperCase();
+        }
         if(vend_id == null || vend_id.strip().length() == 0) {
             throw new IllegalArgumentException("Vendor ID is required");
         }

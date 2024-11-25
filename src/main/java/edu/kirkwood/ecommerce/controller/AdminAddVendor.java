@@ -37,14 +37,22 @@ public class AdminAddVendor extends HttpServlet {
         
         Vendor vendor = new Vendor();
         boolean validationError = false;
-        try {
-            vendor.setVend_id(vendorId);
-            req.setAttribute("vendorIdError", false);
-            req.setAttribute("vendorIdMessage", "Looks good!");
-        } catch(IllegalArgumentException e) {
+        
+        Vendor vendorFromDB = VendorDAO.getVendor(vendorId);
+        if (vendorFromDB != null) {
             validationError = true;
             req.setAttribute("vendorIdError", true);
-            req.setAttribute("vendorIdMessage", e.getMessage());
+            req.setAttribute("vendorIdMessage", "That vendor already exists");
+        } else {
+            try {
+                vendor.setVend_id(vendorId);
+                req.setAttribute("vendorIdError", false);
+                req.setAttribute("vendorIdMessage", "Looks good!");
+            } catch (IllegalArgumentException e) {
+                validationError = true;
+                req.setAttribute("vendorIdError", true);
+                req.setAttribute("vendorIdMessage", e.getMessage());
+            }
         }
 
 
