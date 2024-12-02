@@ -13,7 +13,7 @@
 <div class="container py-4">
     <a href="add-vendor" class="btn btn-primary mb-4" role="button">Add New Vendor</a>
     <h2>Vendors</h2>
-<%-- From Week 9 assignment, c:forEach loop to loop through vendors --%>
+    <%-- From Week 9 assignment, c:forEach loop to loop through vendors --%>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

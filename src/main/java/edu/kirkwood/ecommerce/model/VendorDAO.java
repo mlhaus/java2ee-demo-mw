@@ -37,6 +37,24 @@ public class VendorDAO {
             return false;
         }
     }
+
+    public static boolean updateVendor(Vendor vendor) {
+        try(Connection connection = getConnection()) {
+            CallableStatement statement = connection.prepareCall("{CALL sp_update_vendor_admin(?, ?, ?, ?, ?, ?, ?)}");
+            statement.setString(1, vendor.getVend_id());
+            statement.setString(2, vendor.getVend_name());
+            statement.setString(3, vendor.getAddress().getAddress());
+            statement.setString(4, vendor.getAddress().getCity());
+            statement.setString(5, vendor.getAddress().getState());
+            statement.setString(6, vendor.getAddress().getZip());
+            statement.setString(7, vendor.getAddress().getCountry());
+            int rowsAffected = statement.executeUpdate();
+            return rowsAffected == 1;
+        } catch(SQLException e) {
+//            System.out.println(e.getMessage()); // Uncomment in case nothing is inserting
+            return false;
+        }
+    }
     
     public static Vendor getVendor(String vend_id) {
         Vendor vendor = null;

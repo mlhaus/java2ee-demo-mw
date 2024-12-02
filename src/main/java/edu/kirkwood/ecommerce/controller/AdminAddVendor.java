@@ -22,18 +22,18 @@ public class AdminAddVendor extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String vendorId = req.getParameter("vendorId");
         String vendorName = req.getParameter("vendorName");
+        String country = req.getParameter("country");
         String streetAddress = req.getParameter("streetAddress");
-        String zip = req.getParameter("zip");
         String city = req.getParameter("city");
         String state = req.getParameter("state");
-        String country = req.getParameter("country");
+        String zip = req.getParameter("zip");
         req.setAttribute("vendorId", vendorId);
         req.setAttribute("vendorName", vendorName);
+        req.setAttribute("country", country);
         req.setAttribute("streetAddress", streetAddress);
-        req.setAttribute("zip", zip);
         req.setAttribute("city", city);
         req.setAttribute("state", state);
-        req.setAttribute("country", country);
+        req.setAttribute("zip", zip);
         
         Vendor vendor = new Vendor();
         boolean validationError = false;
