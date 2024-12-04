@@ -19,15 +19,16 @@
             <p class="lead">No vendor found</p>
         </c:when>
         <c:otherwise>
-            <c:if test="${not empty vendorAdded}">
-                <div class="alert <c:choose><c:when test="${vendorAdded == true}">alert-success</c:when><c:otherwise>alert-danger</c:otherwise></c:choose>" role="alert">
-                        ${vendorAddedMessage}
+            <c:if test="${not empty vendorUpdated}">
+                <div class="alert <c:choose><c:when test="${vendorUpdated == true}">alert-success</c:when><c:otherwise>alert-danger</c:otherwise></c:choose>" role="alert">
+                        ${vendorUpdatedMessage}
                 </div>
             </c:if>
-            <form class="row g-3" method="POST" action="add-vendor">
+            <form class="row g-3" method="POST" action="edit-vendor?vend_id=${vend_id}">
                 <div class="col-md-3">
                     <label for="vendorId" class="form-label">Vendor Id</label>
-                    <input type="text" class="form-control <c:choose><c:when test="${vendorIdError == true}">is-invalid</c:when><c:when test="${vendorIdError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="vendorId" name="vendorId" value="${vendor.vend_id}">
+                    <input disabled type="text" class="form-control <c:choose><c:when test="${vendorIdError == true}">is-invalid</c:when><c:when test="${vendorIdError == false}">is-valid</c:when><c:otherwise></c:otherwise></c:choose>" id="vendorId" value="${vend_id}">
+                    <input type="hidden" name="vendorId" value="${vend_id}">
                     <div class="<c:choose><c:when test="${vendorIdError == true}">invalid-feedback</c:when><c:when test="${vendorIdError == false}">valid-feedback</c:when><c:otherwise></c:otherwise></c:choose>">
                             ${vendorIdMessage}
                     </div>

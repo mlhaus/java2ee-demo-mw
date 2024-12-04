@@ -38,20 +38,27 @@ public class VendorDAO {
         }
     }
 
-    public static boolean updateVendor(Vendor vendor) {
+    public static boolean updateVendor(Vendor originalVendor, Vendor newVendor) {
         try(Connection connection = getConnection()) {
-            CallableStatement statement = connection.prepareCall("{CALL sp_update_vendor_admin(?, ?, ?, ?, ?, ?, ?)}");
-            statement.setString(1, vendor.getVend_id());
-            statement.setString(2, vendor.getVend_name());
-            statement.setString(3, vendor.getAddress().getAddress());
-            statement.setString(4, vendor.getAddress().getCity());
-            statement.setString(5, vendor.getAddress().getState());
-            statement.setString(6, vendor.getAddress().getZip());
-            statement.setString(7, vendor.getAddress().getCountry());
+            CallableStatement statement = connection.prepareCall("{CALL sp_update_vendor_admin(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)}");
+            statement.setString(1, originalVendor.getVend_id());
+            statement.setString(2, originalVendor.getVend_name());
+            statement.setString(3, originalVendor.getAddress().getAddress());
+            statement.setString(4, originalVendor.getAddress().getCity());
+            statement.setString(5, originalVendor.getAddress().getState());
+            statement.setString(6, originalVendor.getAddress().getZip());
+            statement.setString(7, originalVendor.getAddress().getCountry());
+            statement.setString(8, newVendor.getVend_id());
+            statement.setString(9, newVendor.getVend_name());
+            statement.setString(10, newVendor.getAddress().getAddress());
+            statement.setString(11, newVendor.getAddress().getCity());
+            statement.setString(12, newVendor.getAddress().getState());
+            statement.setString(13, newVendor.getAddress().getZip());
+            statement.setString(14, newVendor.getAddress().getCountry());
             int rowsAffected = statement.executeUpdate();
             return rowsAffected == 1;
         } catch(SQLException e) {
-//            System.out.println(e.getMessage()); // Uncomment in case nothing is inserting
+    //            System.out.println(e.getMessage()); // Uncomment in case nothing is inserting
             return false;
         }
     }
